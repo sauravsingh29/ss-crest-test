@@ -11,7 +11,7 @@ import com.ss.item.response.OrderResponse;
  */
 public interface JobHandler {
 
-	public void setNext(JobHandler nextJob);
+    public void setNext(JobHandler nextJob);
 
-	public OrderResponse process(Object input);
+    public OrderResponse process(Object input);
 }
